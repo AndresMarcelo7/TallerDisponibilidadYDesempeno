@@ -1,9 +1,12 @@
 # Taller Disponibilidad y Desempeño
 
+Circle CI Badge: [![CircleCI](https://circleci.com/gh/AndresMarcelo7/TallerDisponibilidadYDesempeno.svg?style=svg)](https://circleci.com/gh/AndresMarcelo7/TallerDisponibilidadYDesempeno)  
+
 ### Requerimientos
+* Amazon WS Account
+* Docker / Docker-compose
 
-
-### Problema
+### Problema (Hadamard Matrix)
 El código de este repositorio contiene el algoritmo que permite construir una **matriz Hadamard** de orden 2^n y ofrece una API que atravéz del endpoint **/hadamard/{n}** permite consultar la matriz a travéz de peticiones HTTP GET.
 Este problema requiere un alto nivel de procesamiento debido a que el tamaño de la matriz va creciendo exponencialmente.
 
